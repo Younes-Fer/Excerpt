@@ -19,7 +19,7 @@
         return $paragraph;
     }
 
-    $pattern = "Function to get Excerpt from paragraph by number words";
+    $text = "Function to get Excerpt from paragraph by number words";
 
-    echo get_limit_words(6, $pattern, "...");
+    echo get_limit_words(6, $text, "...");
 
